@@ -16,7 +16,7 @@ void searchEntry(unsigned long long Id)
 
     inputFile.seekg(0, std::ios::beg);
 
-    //If the database has not been optimized since the last new or chaged entry,
+    //If the database has not been optimized since the last new or changed entry,
     //searching for an entry takes O(n) time
     if (!optimized)
     {
